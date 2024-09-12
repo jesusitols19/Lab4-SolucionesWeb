@@ -18,6 +18,8 @@ export class ListarProductosComponent {
     {nombre: "AURICULARES-SURROUND", precio: 300, descripcion: "Sonido envolvente 7.1, micrófono con cancelación de ruido", imagen: "https://resource.logitech.com/content/dam/gaming/en/products/g935/g935-gallery-1.png",oculto:false},
     {nombre: "SILLA-GAMER", precio: 800, descripcion: "Ajustable en altura y reclinable, cojines para cuello y espalda", imagen: "https://paradagamer.com/cdn/shop/products/VG-PL6800SE_MP-MAIN_ver2_800x.png?v=1669818488",oculto:false}
 
+
+
   ];
 
   clickVerDetalle(index:number):void{
