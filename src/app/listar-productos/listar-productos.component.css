@@ -48,10 +48,6 @@ img {
 }
 
 /* Otros estilos */
-.Seleccionados {
-    background-color: lightblue;
-}
-
 .ProductosCaros {
     border: 5px solid red;
     background-color: #FF7F50;
