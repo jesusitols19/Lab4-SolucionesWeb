@@ -55,9 +55,11 @@ img {
 .ProductosCaros {
     border: 5px solid red;
     background-color: #FF7F50;
+    width: 100%;
 }
 
 .ProductosBaratos {
     border: 5px solid green;
     background-color: lightgreen;
+    width: 100%;
 }
