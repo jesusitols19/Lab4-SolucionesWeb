@@ -1,0 +1,18 @@
+.Seleccionados {
+    background-color: lightblue;
+}
+
+.ProductosCaros {
+    border-color:red;
+
+
+}
+
+.ProductosBaratos {
+    border-color:green;
+    background-color: lightgreen;
+}
+
+img {
+    width: 120px;
+}
