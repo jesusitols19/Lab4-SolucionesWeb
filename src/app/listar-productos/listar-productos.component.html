@@ -1,21 +1,23 @@
 <p>Lista de productos</p>
 
-<ul>
-
+<ul class="list-group">
     @for(i of productos; track i.nombre; let index = $index){
-            <li>{{i.nombre}}</li>
-            @if(i.oculto){
-                <div [class]="atributoClass">
-                    <p>---Detalles del producto---</p>
-                    <p>Precio: {{i.precio}}</p>
-                    <p>Descripcion: {{i.descripcion}}</p>
-                    <img [src] = "i.imagen">
-                    <button (click)="clickCerrarDetalle(index)">x</button>
-                </div>
-            }
-            <button (click)="clickVerDetalle(index)">Ver detalles</button>
-        
-        
+        <li class="list-group-item">
+            <div class="item-content">
+                <p class="product-name">{{i.nombre}}</p>
+                @if(i.oculto){
+                    <div [class]="atributoClass" class="contenedor">
+                        <button (click)="clickCerrarDetalle(index)" type="button" class="btn-close btn-izquierda" aria-label="Close"></button>
+                        <p>---Detalles del producto---</p>
+                        <p>Precio: {{i.precio}}</p>
+                        <p>Descripcion: {{i.descripcion}}</p>
+                        <div>
+                            <img [src]="i.imagen">
+                        </div>
+                    </div>
+                }
+                <button (click)="clickVerDetalle(index)" type="button" class="btn btn-primary">Ver detalles</button>
+            </div>
+        </li>
     }
 </ul>
-

@@ -10,7 +10,7 @@ export class ListarProductosComponent {
   atributoClass:string = "";
 
   productos:Producto[] = [
-    {nombre: "LAPTOP-PRO", precio: 4500, descripcion: "1 TB SSD, 16 GB RAM, Intel i7", imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRZC-feq5IK6C53fyrfN0iOUfF4Ke7jwvlzQ&s",oculto:false},
+    {nombre: "LAPTOP-PRO", precio: 4500, descripcion: "1 TB SSD, 16 GB RAM, Intel i7", imagen: "https://alquilerdelaptops.pe/wp-content/uploads/2023/05/descarga-3-1-1024x576.webp",oculto:false},
     {nombre: "MONITOR-ULTRAWIDE", precio: 1200, descripcion: "34 pulgadas, resolución 4K", imagen: "https://www.smartbusiness.pe/cdn/shop/products/MONITOR-LED-29-LG-29WQ600-W-ULTRAWIDE-2560X1080-HDMI-DP-USB-C-1MS75HZFREESYNC.jpg?v=1723674593",oculto:false},
     {nombre: "TECLADO-MECANICO", precio: 250, descripcion: "Retroiluminado RGB, switches azules", imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCYRsaLauyyvFhkRLLQj8SorsSUl6Bm7Sr5Q&s",oculto:false},
     {nombre: "MOUSE-GAMER", precio: 150, descripcion: "Sensor óptico 16000 DPI, 8 botones programables", imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-8vvTinNnPUmy-kLGhSTFznuPuBBTOgKNnw&s",oculto:false},

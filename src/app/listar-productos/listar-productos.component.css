@@ -1,18 +1,63 @@
+/* Centra la lista en la pantalla */
+.list-group {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el padding por defecto */
+    margin: 0 auto; /* Centra horizontalmente */
+    max-width: 600px; /* Ajusta el ancho máximo si es necesario */
+}
+
+/* Estilos para los elementos de la lista */
+.list-group-item {
+    margin: 10px 0; /* Espacio entre los elementos */
+    padding: 20px; /* Espacio dentro de los elementos */
+    border: 1px solid #ddd; /* Borde de los elementos */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #fff; /* Fondo blanco para los elementos */
+    text-align: center; /* Centra el texto dentro del elemento */
+}
+
+/* Estilos para el contenido dentro del elemento de la lista */
+.item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+    justify-content: center; /* Centra el contenido verticalmente */
+    height: 100%; /* Asegura que el contenido use toda la altura disponible */
+}
+
+/* Estilos para el contenedor de detalles */
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+    text-align: center;
+    margin-top: 10px; /* Espacio superior */
+}
+
+/* Estilos para el botón de cerrar */
+.btn-izquierda {
+    align-self: flex-end; /* Alinea el botón de cerrar al final del contenedor */
+}
+
+/* Ajuste para la imagen */
+img {
+    width: 120px;
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina espacio extra debajo de la imagen */
+    margin-top: 10px; /* Espacio superior */
+}
+
+/* Otros estilos */
 .Seleccionados {
     background-color: lightblue;
 }
 
 .ProductosCaros {
-    border-color:red;
-
-
+    border: 5px solid red;
+    background-color: #FF7F50;
 }
 
 .ProductosBaratos {
-    border-color:green;
+    border: 5px solid green;
     background-color: lightgreen;
-}
-
-img {
-    width: 120px;
 }
